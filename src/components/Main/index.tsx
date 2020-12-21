@@ -4,6 +4,8 @@ import {
   Container,
   Story,
   Avatar,
+  More,
+  ArrowRight
 } from './styles';
 
 const Main: React.FC = () => {
@@ -12,6 +14,25 @@ const Main: React.FC = () => {
       <Story>
         <Avatar />
       </Story>
+      <Story>
+        <Avatar />
+      </Story>
+      <Story>
+        <Avatar />
+      </Story>
+      <Story>
+        <Avatar />
+      </Story>
+      <Story>
+        <Avatar />
+      </Story>
+      <Story>
+        <Avatar />
+        <More>
+          <ArrowRight />
+        </More>
+      </Story>
+      
     </Container>
   )
 }

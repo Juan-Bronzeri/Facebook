@@ -13,3 +13,5 @@ export { SearchAlt2 as Search } from '@styled-icons/boxicons-regular/SearchAlt2'
 export { Plus } from '@styled-icons/boxicons-regular/Plus';
 
 export { Bell } from '@styled-icons/boxicons-solid/Bell';
+
+export { RightArrowAlt } from '@styled-icons/boxicons-regular/RightArrowAlt';

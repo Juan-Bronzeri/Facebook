@@ -47,6 +47,14 @@ export const MenuBotton = styled.button`
   width: 100%;
 `;
 
+export const MenuBottonCenter = styled.div<ILineColorProps>`
+  width: 100%;
+  margin-top: 10px;
+  padding: 11px 0 10px;
+
+  border-bottom: 3px solid ${props => props.lineColor};
+`;
+
 export const LeftSide = styled.div`
   display: flex;
   padding-left: 10px;
@@ -56,7 +64,7 @@ const iconCSS = css`
     flex-shrink: 0;
 
     width: 30px;
-    height: 30px;
+    height: 100%;
     color: var(--white);
 `;
 
@@ -70,7 +78,7 @@ export const FacebookIcon = styled(Facebook)`
   }
 `;
 export const SearchIcon = styled(Search)`
-padding-left: 10px;
+  padding-left: 10px;
   ${iconCSS};
 `;
 export const CenterSide = styled.div`
@@ -78,29 +86,27 @@ export const CenterSide = styled.div`
   width: 37%;
   justify-content: space-between;
 
-  margin-top: 10px;
-    padding: 11px 0 10px;
-    text-align: center;
+  text-align: center;
 
-    font-weight: bold;
-    font-size: 15px;
+  font-weight: bold;
+  font-size: 15px;
 
-    outline: 0;
-    cursor: pointer;
+  outline: 0;
+  cursor: pointer;
 
-    border-bottom: 3px solid blue;
+  
 `;
 
-export const HomeIcon = styled(Home)<ILineColorProps>`
+export const HomeIcon = styled(Home)`
   ${iconCSS};
 `;
-export const PlayIcon = styled(Play)<ILineColorProps>`
+export const PlayIcon = styled(Play)`
   ${iconCSS};
 `;
-export const ShopIcon = styled(Shop)<ILineColorProps>`
+export const ShopIcon = styled(Shop)`
   ${iconCSS};
 `;
-export const GroupIcon = styled(Group)<ILineColorProps>`
+export const GroupIcon = styled(Group)`
   ${iconCSS};
 `;
 export const RightSide = styled.div`

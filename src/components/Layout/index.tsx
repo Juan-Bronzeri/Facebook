@@ -9,6 +9,7 @@ import {
     Wrapper,
     Header,
     MenuBotton,
+    MenuBottonCenter,
     LeftSide,
     FacebookIcon,
     SearchIcon,
@@ -37,18 +38,18 @@ const Layout: React.FC = () => {
                     </MenuBotton>
                 </LeftSide>
                 <CenterSide>
-                    <MenuBotton>
-                        <HomeIcon lineColor='red' />
-                    </MenuBotton>
-                    <MenuBotton>
-                        <PlayIcon lineColor='blue' />
-                    </MenuBotton>
-                    <MenuBotton>
-                        <ShopIcon lineColor='red' />
-                    </MenuBotton>
-                    <MenuBotton>
-                        <GroupIcon lineColor='blue' />
-                    </MenuBotton>
+                    <MenuBottonCenter lineColor='none'>
+                        <HomeIcon />
+                    </MenuBottonCenter>
+                    <MenuBottonCenter lineColor='blue'>
+                        <PlayIcon />
+                    </MenuBottonCenter>
+                    <MenuBottonCenter lineColor='none'>
+                        <ShopIcon />
+                    </MenuBottonCenter>
+                    <MenuBottonCenter lineColor='none'>
+                        <GroupIcon />
+                    </MenuBottonCenter>
                 </CenterSide>
                 <RightSide>
                     <Avatar />
