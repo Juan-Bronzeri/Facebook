@@ -1,38 +1,20 @@
 import React from 'react';
 
-import { 
+import Story from '../Story';
+import Feed from '../Feed';
+
+import {
   Container,
-  Story,
-  Avatar,
-  More,
-  ArrowRight
+  StoryProfider
 } from './styles';
 
 const Main: React.FC = () => {
   return (
     <Container>
-      <Story>
-        <Avatar />
-      </Story>
-      <Story>
-        <Avatar />
-      </Story>
-      <Story>
-        <Avatar />
-      </Story>
-      <Story>
-        <Avatar />
-      </Story>
-      <Story>
-        <Avatar />
-      </Story>
-      <Story>
-        <Avatar />
-        <More>
-          <ArrowRight />
-        </More>
-      </Story>
-      
+      <StoryProfider>
+        <Story />
+      </StoryProfider>
+      <Feed />
     </Container>
   )
 }

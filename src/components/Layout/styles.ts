@@ -17,11 +17,13 @@ interface ILineColorProps {
 
 export const Container = styled.div`
   background: var(--primary);
+  width: 100%;
 `;
 
 export const Wrapper = styled.div`
     height: 100%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
 
     display: flex;
     justify-content: space-between;
@@ -30,15 +32,11 @@ export const Wrapper = styled.div`
 export const Header = styled.div`
     z-index: 2;
     position: sticky;
-    top: 0;
-    bottom: 0;
     background: var(--secondary);
     justify-content: space-between;
 
     display: flex;
-    align-items: center;
 
-    text-align: left;
 
     border-bottom: 1px solid var(--outline);
 `;
