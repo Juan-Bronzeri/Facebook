@@ -10,5 +10,3 @@ export const Posts = styled.div`
 
     flex-shrink: 0;
 `;
-
-export const Post = styled.div``;

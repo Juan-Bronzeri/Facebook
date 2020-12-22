@@ -3,28 +3,25 @@ import { RightArrowAlt } from '../../styles/Icons';
 
 export const Container = styled.div`
     display: flex;
-    margin: 0;
-    padding: 0;
-    width: 100%;
 `;
 
 export const StoryContainer = styled.div`
     position: relative;
     display: grid;
 
+    justify-items: center;
     border-radius: 10px;
 
     grid-template-columns: auto auto auto auto;
-    grid-gap: 14px;
+    grid-gap: 19px;
 
     background-color: #2196F3;
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 12px;
 `;
 
 export const Avatar = styled.div`
-   
-    position: relative;
+
     width: 39px;
     height: 39px;
 

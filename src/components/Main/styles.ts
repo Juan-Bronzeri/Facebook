@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-
+  grid-area: MA;
+  max-width: 40%;
 `;
 
 export const StoryProfider = styled.div`
@@ -9,5 +10,5 @@ export const StoryProfider = styled.div`
     
   margin-top: 10px;
   
-  height: 18vh;
+  height: 20vh;
 `;

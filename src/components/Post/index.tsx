@@ -13,38 +13,53 @@ import {
   ComentIcon,
   RetweetIcon,
   LikeIcon,
-  Dot
+  Dot,
+  Data,
+  WorldIcon,
+  MoreIcon,
+  Footer
 } from './styles';
 
 const Post: React.FC = () => {
   return (
     <Container>
       <Body>
-        <Avatar />
-        <Content>
-          <Header>
-            <strong>Juan</strong>
-            <span>@juan.dias</span>
-            <Dot />
-            <time>16 de dez</time>
-          </Header>
-          <Description>Learning</Description>
-          <ImageContent />
-          <Icons>
-            <Status>
-              <ComentIcon />
+        <ul>
+          <li>
+            <Content>
+              <Avatar />
+              <Header>
+                <strong>Juan</strong>
+                <MoreIcon />
+              </Header>
+              <Data>
+                10 h <Dot /> <WorldIcon />
+              </Data>
+            </Content>
+          </li>
+          <li>
+            <Description>TesteTesteTesteTesteTesteTeste TesteTeste TesteTesteTesteTeste TesteTeste TesteTesteTesteTesteTesteTesteTeste TesteTesteTesteTesteTeste Teste TesteTesteTeste TesteTesteTesteTesteTesteTesteTeste TesteTesteTesteTeste TesteTesteTesteTesteTeste TesteTesteTesteTeste TesteTesteTeste TesteTesteTeste</Description>
+          </li>
+          <li>
+            <ImageContent />
+            <Footer>
+              <Icons>
+                <Status>
+                  <ComentIcon />
                             20
                         </Status>
-            <Status>
-              <RetweetIcon />
+                <Status>
+                  <RetweetIcon />
                             20
                         </Status>
-            <Status>
-              <LikeIcon />
+                <Status>
+                  <LikeIcon />
                             50
                         </Status>
-          </Icons>
-        </Content>
+              </Icons>
+            </Footer>
+          </li>
+        </ul>
       </Body>
     </Container>
   )

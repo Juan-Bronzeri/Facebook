@@ -27,6 +27,11 @@ export const Wrapper = styled.div`
 
     display: flex;
     justify-content: space-between;
+  
+    grid-template-areas: 
+    'MB MA SB';
+
+    
 `;
 
 export const Header = styled.div`
@@ -36,7 +41,6 @@ export const Header = styled.div`
     justify-content: space-between;
 
     display: flex;
-
 
     border-bottom: 1px solid var(--outline);
 `;
@@ -82,7 +86,6 @@ export const SearchIcon = styled(Search)`
 export const CenterSide = styled.div`
   display: flex;
   width: 37%;
-  justify-content: space-between;
 
   text-align: center;
 
@@ -91,8 +94,6 @@ export const CenterSide = styled.div`
 
   outline: 0;
   cursor: pointer;
-
-  
 `;
 
 export const HomeIcon = styled(Home)`

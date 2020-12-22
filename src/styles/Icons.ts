@@ -15,3 +15,7 @@ export { Plus } from '@styled-icons/boxicons-regular/Plus';
 export { Bell } from '@styled-icons/boxicons-solid/Bell';
 
 export { RightArrowAlt } from '@styled-icons/boxicons-regular/RightArrowAlt';
+
+export { Earth as World } from '@styled-icons/remix-fill/Earth';
+
+export { MoreHorizontalOutline as More } from '@styled-icons/evaicons-outline/MoreHorizontalOutline';
